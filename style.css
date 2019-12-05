@@ -1,0 +1,245 @@
+body{
+	background-color: yellowgreen;
+}
+
+.grid {
+	display: grid;
+	grid-gap: 5px 10px;
+	width: 98.5%;
+	height: 1000px;
+	grid-template-rows: 15% 1fr 1fr 1fr 1fr 1fr 2%;
+	grid-template-columns: 25% 50% 25%;
+  }
+  
+.link {
+  background-color: beige;
+  border-radius: 5px;
+  border: 2px goldenrod solid;
+  padding-top: 50px;
+}
+
+h1 {
+	font-weight: bold;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+#bold {
+	font-weight: bold;
+}
+
+.header {
+  background-color: gold;
+  color: black;
+  font-family: Comic Sans MS;
+  border-radius: 10px;
+  border: 2px white solid;
+  grid-area: 1 / 1 / span 1 / span 3;
+  font-size: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.campaignlink {
+  grid-area: 2 / 2 / span 1 / span 1;
+}
+
+.c {
+  background-color: PaleGoldenrod;
+  color: black;
+  border-radius: 5px;
+  border: 2px yellow solid;
+}
+
+.problem {
+  grid-area: 3 / 1 / span 1 / span 3;
+}
+
+.solution {
+  grid-area: 4 / 1 / span 1 / span 3;
+}
+
+.action {
+  grid-area: 5 / 1 / span 1 / span 3;
+}
+
+.sociallink {
+  grid-area: 3 / 2 / span 1 / span 1;
+}
+
+#top {
+	grid-area: 2 / 2 / span 1 / span 1;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.social {
+	background-color: gold;
+	color: black;
+	border: 2px blue solid;
+	border-radius: 8px;
+	grid-area: 3 / 1 / span 3 / span 3;
+	font-size: 25px;
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-left: 20px;
+	padding-right: 15px;
+}
+
+#down {
+	grid-area: 6 / 2 / span 1 / span 1;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.historicallink {
+  grid-area: 5 / 2 / span 1 / span 1;
+}
+
+.ww1 {
+	grid-area: 3 / 1 / span 3 / span 1;
+	padding-left:20px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.hiss {
+	background-color: teal;
+	color: white;
+	border: 2px blue solid;
+	border-radius: 8px;
+	grid-area: 3 / 2 / span 3 / span 1;
+	font-size: 50px;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 15px;
+}
+
+.ww2 {
+	grid-area: 3 / 3 / span 3 / span 1;
+	padding-left:0px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.enviromentlink {
+  grid-area: 4 / 2 / span 1 / span 1;
+}
+
+.mimic {
+	background-color: Saddlebrown;
+	color: white;
+	border: 2px blue solid;
+	border-radius: 8px;
+	grid-area: 3 / 1 / span 3 / span 3;
+	font-size: 40px;
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-left: 20px;
+	padding-right: 15px;
+}
+
+.scientificlink {
+  grid-area: 6 / 2 / span 1 / span 1;
+}
+
+.data {
+	background-color: goldenrod;
+	color: AliceBlue;
+	border: 2px gold solid;
+	border-radius: 8px;
+	grid-area: 2 / 1 / span 5 / span 3;
+	font-size: 45px;
+	padding-top:50px;
+	padding-left: 15px;
+	padding-right: 10px;
+}
+
+.pic1 {
+  grid-area: 2 / 1 / span 1 / span 1;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.pic2 {
+  grid-area: 2 / 3 / span 1 / span 1;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.pic3 {
+  grid-area: 4 / 1 / span 1 / span 1;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+  padding-left: 3%;
+}
+
+.pic4 {
+  grid-area: 4 / 3 / span 1 / span 1;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.pic5 {
+  grid-area: 6 / 1 / span 1 / span 1;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.empty1 {
+  grid-area: 3 / 3 / span 1 / span 1;
+}
+
+.empty2 {
+  grid-area: 3 / 1 / span 1 / span 1;
+}
+
+.empty3 {
+  grid-area: 5 / 3 / span 1 / span 1;
+}
+
+.empty4 {
+  grid-area: 5 / 1 / span 1 / span 1;
+}
+
+.empty5 {
+  grid-area: 6 / 3 / span 1 / span 1;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	opacity: 75%;
+}
+
+.border {
+  background-color: gold;
+  color: black;
+  border: 2px white solid;
+  grid-area: 7 / 1 / span 1 / span 3;
+  text-align: right;
+}
